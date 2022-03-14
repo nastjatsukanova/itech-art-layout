@@ -1,0 +1,74 @@
+.content_block {
+    width: 100%;
+    height: 570px;
+    background-image: url(../assets/content_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content_text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.content_label,
+.devices_label,
+.about_label {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 10px;
+    color: #3D4F9F;
+    text-transform: uppercase;
+}
+
+.content_title,
+.devices_title,
+.about_title {
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 48px;
+    color: #3D4F9F;
+    margin: 13px;
+}
+
+.content_subtitle,
+.devices_subtitle {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8D96BD;
+    letter-spacing: 0.48px;
+    font-style: normal;
+    font-weight: normal;
+    width: 35%;
+    text-align: center;
+    line-height: 29px;
+}
+
+.content_btn {
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.btn_play {
+    border: 8px solid transparent;
+    position: absolute;
+    border-left: 12px solid #5E81FF;
+    border-radius: 30%;
+    top: 18px;
+    left: 22px;
+}
+
+.content_btn:hover {
+    border: 2px solid #5E81FF;
+    transition: all 0.3s ease;
+}
