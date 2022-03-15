@@ -29,8 +29,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 81%;
-    margin-left: 3%;
+    height: 82%;
+    margin-left: 15px;
 }
 
 .content_images {
@@ -38,8 +38,8 @@
     flex-direction: row;
     width: 35%;
     justify-content: space-between;
-    padding-top: 7%;
-    padding-left: 5%;
+    padding-top: 70px;
+    padding-left: 50px;
 }
 
 .content_img1 {
@@ -50,7 +50,7 @@
 .content_img2 {
     width: 126px;
     height: 126px;
-    border-radius: 2%;
+    border-radius: 2px;
 }
 
 .blog_text {
@@ -86,7 +86,7 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 5%;
+    margin-top: 20px;
 }
 
 .text_btn {
