@@ -5,11 +5,297 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.styles.css">
+    <title>layout_task_2</title>
 </head>
 
 <body>
+    <header class="header">
+        <nav class="header_menu">
+            <div class="header_logo"></div>
+            <ul class="menu_list">
+                <li><a href="#" class="menu_item">Home</a></li>
+                <li><a href="#" class="menu_item">Blog</a></li>
+                <li><a href="#" class="menu_item">Features</a></li>
+                <li><a href="#" class="menu_item">Pricing</a></li>
+                <li><a href="#" class="menu_item">Documentation</a></li>
+            </ul>
+        </nav>
+        <div class="header_links">
+            <svg viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="header_img">
+                <path d="M5.65597 17V9.24548H8.22501L8.60969 6.2234H5.65597V4.294C5.65597 3.41904 5.89578 2.82278 7.13417 2.82278L8.71368 2.82208V0.119112C8.44051 0.0822826 7.5029 -1.65981e-08 6.41206 -1.65981e-08C4.13475 -1.65981e-08 2.57564 1.40836 2.57564 3.9947V6.2234H-2.3404e-08V9.24548H2.57564V17H5.65597Z" fill="#B6BAC7"/>
+            </svg>
 
+            <svg viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg" class="header_img">
+                <path d="M6.04945 8.72806L11.4957 12.5768C12.1172 12.9048 12.5657 12.735 12.7205 12.0249L14.9374 2.03246C15.1644 1.16206 14.5906 0.76729 13.996 1.02547L0.978404 5.82666C0.0898302 6.16756 0.0950105 6.64173 0.816436 6.85301L4.15705 7.85032L11.8909 3.18335C12.256 2.97158 12.5911 3.08543 12.3161 3.31891" fill="#B6BAC7"/>
+            </svg>
+
+            <svg viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="header_img">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0328 1.84041C16.4253 2.11761 15.7726 2.30417 15.0877 2.38898C15.7868 1.95807 16.3239 1.27594 16.5767 0.46342C15.9222 0.862259 15.1973 1.15191 14.4257 1.308C13.8081 0.631966 12.9276 0.210602 11.9535 0.210602C10.0832 0.210602 8.56631 1.76886 8.56631 3.69017C8.56631 3.96313 8.59598 4.22867 8.65402 4.48334C5.83853 4.33759 3.3424 2.95159 1.67204 0.847419C1.38053 1.36154 1.2135 1.95887 1.2135 2.59648C1.2135 3.80359 1.81147 4.86853 2.72005 5.49303C2.16541 5.47448 1.64276 5.31812 1.18615 5.05709V5.10081C1.18615 6.7876 2.35476 8.19347 3.90258 8.51347C3.61882 8.59297 3.31957 8.63537 3.01181 8.63537C2.79357 8.63537 2.581 8.61417 2.37462 8.5731C2.80543 9.95591 4.05659 10.9619 5.53864 10.99C4.37931 11.9228 2.91868 12.4793 1.33113 12.4793C1.05768 12.4793 0.788618 12.4634 0.523682 12.4308C2.02249 13.4183 3.80327 13.9944 5.71599 13.9944C11.946 13.9944 15.3531 8.69155 15.3531 4.09365C15.3531 3.94259 15.3498 3.79286 15.3433 3.64313C16.0053 3.15286 16.5798 2.53937 17.0338 1.84107" fill="#6188FF"/>
+            </svg>
+
+            <svg viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="header_img">
+                <path d="M17.0001 2.10651H16.3472C16.1047 2.10651 15.7619 2.45072 15.7619 2.67109V10.6583C15.7619 10.8789 16.1047 11.1796 16.3472 11.1796H17.0001V13.0755H11.084V11.1796H12.3223V2.78361H12.2616L9.36999 13.0755H7.13129L4.277 2.78361H4.20477V11.1796H5.44303V13.0755H0.48999V11.1796H1.12422C1.38542 11.1796 1.72825 10.8789 1.72825 10.6583V2.67109C1.72825 2.45072 1.38542 2.10651 1.12422 2.10651H0.48999V0.210635H6.68355L8.717 7.65872H8.77295L10.8252 0.210635H17.0001V2.10651Z" fill="#757E9A"/>
+            </svg>
+
+            <button class="header_btn">Get started</button>
+        </div>
+    </header>
+    <div class="content_block">
+        <div class="content_text">
+            <label class="content_label">PLAN YOUR LIFE</label>
+            <p class="content_title">Increase your <b>productivity</b></p>
+            <p class="content_subtitle">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
+            <div class="content_btn">
+                <div class="btn_play"></div>
+            </div>
+        </div>
+    </div>
+    <div class="partners">
+        <div class="partners_images">
+            <img class="partners_img" src="./assets/partner1.png">
+            <img class="partners_img" src="./assets/partner2.png">
+            <img class="partners_img" src="./assets/partner3.png">
+            <img class="partners_img" src="./assets/partner4.png">
+            <img class="partners_img" src="./assets/partner5.png">
+        </div>
+    </div>
+    <div class="devices">
+        <div class="devices_text">
+            <label class="devices_label">DESKTOP AND MOBILE APP</label>
+            <p class="devices_title"><b>Plan</b> and <b>manage</b></p>
+            <p class="devices_subtitle">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.</p>
+            <div class="devices_buttons">
+                <button class="video">View video &#9658 </button>
+                <button class="features">See features</button>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="about_text">
+            <label class="about_label">ABOUT US</label>
+            <p class="about_title">Read about our app</p>
+            <div class="about_list">
+                <div class="about_item">
+                    <div class="item_img">
+                        <img class="item_logo" src="./assets/img1.png">
+                    </div>
+                    <div class="item_title">Overview</div>
+                    <div class="item_subtitle">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</div>
+                </div>
+                <div class="about_item">
+                    <div class="item_img">
+                        <img class="item_logo" src="./assets/img2.png">
+                    </div>
+                    <div class="item_title">Files</div>
+                    <div class="item_subtitle">No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</div>
+                </div>
+                <div class="about_item">
+                    <div class="item_img">
+                        <img class="item_logo" src="./assets/img3.png">
+                    </div>
+                    <div class="item_title">Meeting chats</div>
+                    <div class="item_subtitle">Vim ne tacimates neglegentur. Erat diceret omittam at est.</div>
+                </div>
+                <div class="about_item">
+                    <div class="item_img">
+                        <img class="item_logo" src="./assets/img4.png">
+                    </div>
+                    <div class="item_title">Save events</div>
+                    <div class="item_subtitle">Nisl idque mel ea, nominati voluptatum.
+                    </div>
+                </div>
+            </div>
+            <div class="about_buttons">
+                <button class="read">Read more</button>
+                <p class="buttons_label"> &#8212 OR &#8212</p>
+                <button class="start">Get started</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="statistics">
+        <div class="statistics1">
+            <div class="statistics1_text">
+                <img class="statistics_img" src="./assets/statics1.png">
+                <label class="statistics_title">89%</label>
+                <label class="statistics1_subtitle">Customers who have increased their productivity</label>
+            </div>
+
+        </div>
+        <div class="statistics2">
+            <div class="statistics2_text">
+                <img class="statistics_img" src="./assets/statics2.png">
+                <label class="statistics_title">3123</label>
+                <label class="statistics2_subtitle">Users who have used our application</label>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="blog">
+        <label class="blog_label">OUR RESOURCES</label>
+        <div class="blog_title">Start reading our blog</div>
+        <div class="blog_content">
+            <div class="content_images">
+                <div class="block1">
+                    <img class="content_img1" src="./assets/blog1.png">
+                    <div class="content_finder"></div>
+                </div>
+                <div class="block2">
+                    <img class="content_img2" src="./assets/blog2.png">
+                    <img class="content_img2" src="./assets/blog3.png">
+                </div>
+
+            </div>
+            <div class="blog_text">
+                <div class="text_title">How to start planning</div>
+                <div class="text_subtitle">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...
+                </div>
+                <div class="text_buttons">
+                    <button class="text_btn">Read now</button>
+                    <button class="text_btn">Add to your bookmarks</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="customers">
+        <div class="customers_text">
+            <label class="customers_label">TESTIMONIALS</label>
+            <div class="customers_title">Customers's quotes</div>
+            <div class="customers_subtitle">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an.</div>
+
+        </div>
+        <div class="customers_quote">
+            <div class="quote_block">
+                <label class="quote_text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </label>
+                <div class="quote_img"></div>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown_block">
+        <div class="block_text">
+            <label class="block_label">Customer help</label>
+            <div class="block_title">Frequently asked questions</div>
+        </div>
+
+        <div class="dropdown">
+            <div class="dropdown_item">
+                <label class="dropdown_title">Reque insolens in vel?
+              <input type="checkbox" class="dropdown_checkbox">
+              <ul class="dropdown_content">		
+                <li><p class="dropdown_text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p></li>
+                <li><button class="dropdown_btn">Go to documentation</button></li>
+              </ul> 
+            </label>
+            </div>
+            <hr>
+            <div class="dropdown_item">
+                <label class="dropdown_title">Vis rebum error graecis ea, id sit postea accusamus?
+              <input type="checkbox" class="dropdown_checkbox">
+              <ul class="dropdown_content">		
+                <li><p class="dropdown_text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p></li>
+                <li><button class="dropdown_btn">Go to documentation</button></li>
+              </ul> 
+            </label>
+            </div>
+            <hr>
+            <div class="dropdown_item">
+                <label class="dropdown_title">Lorem repudiandae ne nec?
+              <input type="checkbox" class="dropdown_checkbox">
+              <ul class="dropdown_content">		
+                <li><p class="dropdown_text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p></li>
+                <li><button class="dropdown_btn">Go to documentation</button></li>
+              </ul> 
+            </label>
+            </div>
+            <hr>
+            <div class="dropdown_item">
+                <label class="dropdown_title">Ad dicit numquam vel. Et eos iudico feugait percipitur?
+              <input type="checkbox" class="dropdown_checkbox">
+              <ul class="dropdown_content">		
+                <li><p class="dropdown_text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p></li>
+                <li><button class="dropdown_btn">Go to documentation</button></li>
+              </ul> 
+            </label>
+            </div>
+            <hr>
+            <div class="dropdown_item">
+                <label class="dropdown_title">Sea no dico percipitur. Fierent constituam definitiones id eum?
+              <input type="checkbox" class="dropdown_checkbox">
+              <ul class="dropdown_content">		
+                <li><p class="dropdown_text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                </p></li>
+                <li><button class="dropdown_btn">Go to documentation</button></li>
+              </ul> 
+            </label>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="start_block">
+        <div class="start_text">
+            <label class="start_label">PLAN YOUR LIFE</label>
+            <div class="start_title">Get <b>started</b> now</div>
+            <div class="start_subtitle">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</div>
+            <div class="start_buttons">
+                <button class="start_btn">View pricing</button>
+                <button class="start_btn">Read documentation</button>
+            </div>
+        </div>
+    </div>
+    <div class="signup_block">
+        <div class="signup_text">
+            <div class="signup_title">Sign up for newsletter</div>
+            <div class="signup_subtitle">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.</div>
+        </div>
+        <div class="signup_email">
+            <input class="email" placeholder="Email address">
+            <button class="save">Save me</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <nav class="footer_menu">
+            <div class="footer_logo"></div>
+            <ul class="menu_list">
+                <li><a href="#" class="menu_item">Home</a></li>
+                <li><a href="#" class="menu_item">Blog</a></li>
+                <li><a href="#" class="menu_item">Features</a></li>
+                <li><a href="#" class="menu_item">Pricing</a></li>
+                <li><a href="#" class="menu_item">Documentation</a></li>
+            </ul>
+        </nav>
+        <div class="footer_links">
+            <svg viewBox="0 0 9 17" xmlns="http://www.w3.org/2000/svg" class="footer_img">
+                <path d="M5.65597 17V9.24548H8.22501L8.60969 6.2234H5.65597V4.294C5.65597 3.41904 5.89578 2.82278 7.13417 2.82278L8.71368 2.82208V0.119112C8.44051 0.0822826 7.5029 -1.65981e-08 6.41206 -1.65981e-08C4.13475 -1.65981e-08 2.57564 1.40836 2.57564 3.9947V6.2234H-2.3404e-08V9.24548H2.57564V17H5.65597Z" fill="#B6BAC7"/>
+            </svg>
+
+            <svg viewBox="0 0 15 13" xmlns="http://www.w3.org/2000/svg" class="footer_img">
+                <path d="M6.04945 8.72806L11.4957 12.5768C12.1172 12.9048 12.5657 12.735 12.7205 12.0249L14.9374 2.03246C15.1644 1.16206 14.5906 0.76729 13.996 1.02547L0.978404 5.82666C0.0898302 6.16756 0.0950105 6.64173 0.816436 6.85301L4.15705 7.85032L11.8909 3.18335C12.256 2.97158 12.5911 3.08543 12.3161 3.31891" fill="#B6BAC7"/>
+            </svg>
+
+            <svg viewBox="0 0 18 14" xmlns="http://www.w3.org/2000/svg" class="footer_img">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0328 1.84041C16.4253 2.11761 15.7726 2.30417 15.0877 2.38898C15.7868 1.95807 16.3239 1.27594 16.5767 0.46342C15.9222 0.862259 15.1973 1.15191 14.4257 1.308C13.8081 0.631966 12.9276 0.210602 11.9535 0.210602C10.0832 0.210602 8.56631 1.76886 8.56631 3.69017C8.56631 3.96313 8.59598 4.22867 8.65402 4.48334C5.83853 4.33759 3.3424 2.95159 1.67204 0.847419C1.38053 1.36154 1.2135 1.95887 1.2135 2.59648C1.2135 3.80359 1.81147 4.86853 2.72005 5.49303C2.16541 5.47448 1.64276 5.31812 1.18615 5.05709V5.10081C1.18615 6.7876 2.35476 8.19347 3.90258 8.51347C3.61882 8.59297 3.31957 8.63537 3.01181 8.63537C2.79357 8.63537 2.581 8.61417 2.37462 8.5731C2.80543 9.95591 4.05659 10.9619 5.53864 10.99C4.37931 11.9228 2.91868 12.4793 1.33113 12.4793C1.05768 12.4793 0.788618 12.4634 0.523682 12.4308C2.02249 13.4183 3.80327 13.9944 5.71599 13.9944C11.946 13.9944 15.3531 8.69155 15.3531 4.09365C15.3531 3.94259 15.3498 3.79286 15.3433 3.64313C16.0053 3.15286 16.5798 2.53937 17.0338 1.84107" fill="#6188FF"/>
+            </svg>
+
+            <svg viewBox="0 0 17 14" xmlns="http://www.w3.org/2000/svg" class="footer_img">
+                <path d="M17.0001 2.10651H16.3472C16.1047 2.10651 15.7619 2.45072 15.7619 2.67109V10.6583C15.7619 10.8789 16.1047 11.1796 16.3472 11.1796H17.0001V13.0755H11.084V11.1796H12.3223V2.78361H12.2616L9.36999 13.0755H7.13129L4.277 2.78361H4.20477V11.1796H5.44303V13.0755H0.48999V11.1796H1.12422C1.38542 11.1796 1.72825 10.8789 1.72825 10.6583V2.67109C1.72825 2.45072 1.38542 2.10651 1.12422 2.10651H0.48999V0.210635H6.68355L8.717 7.65872H8.77295L10.8252 0.210635H17.0001V2.10651Z" fill="#757E9A"/>
+            </svg>
+
+            <button class="footer_btn">Get started</button>
+        </div>
+    </footer>
+    <div class="footer_text">Copyright © 2018 by Random site </div>
 </body>
 
 </html>

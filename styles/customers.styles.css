@@ -1,0 +1,81 @@
+.customers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 479px;
+    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+}
+
+.customers_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 170px;
+}
+
+.customers_quote {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -220px;
+}
+
+.quote_block {
+    width: 423px;
+    height: 76px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 41px 71px 53px 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.customers_label {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 1.6px;
+    color: #3D4F9F;
+}
+
+.customers_title {
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 36px;
+    color: #3D4F9F;
+    margin-top: 3%;
+}
+
+.customers_subtitle {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.48px;
+    color: #A4ABC8;
+    width: 50%;
+    margin-top: 25px;
+}
+
+.quote_text {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    color: #676F95;
+}
+
+.quote_img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-image: url(../assets/quote.png);
+    position: absolute;
+    top: 140px;
+}
